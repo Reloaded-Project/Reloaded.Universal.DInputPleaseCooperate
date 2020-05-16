@@ -1,0 +1,16 @@
+{
+  "ModId": "Reloaded.Universal.DInputPleaseCooperate",
+  "ModName": "DirectInput Please Cooperate!",
+  "ModAuthor": "Sewer56",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Ever annoyed that some games block your hotkeys? Want to take a screenshot but the game says no? Here's a fix!'",
+  "ModDll": "Reloaded.Universal.DInputPleaseCooperate.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/Reloaded.Universal.DInputPleaseCooperate.dll",
+  "ModR2RManagedDll64": "x64/Reloaded.Universal.DInputPleaseCooperate.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": null,
+  "SupportedAppId": [ "sonicriders.exe", "ed_ao.exe" ]
+}
