@@ -8,6 +8,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <OutputPath>$(RELOADEDIIMODS)\Reloaded.Universal.DInputPleaseCooperate</OutputPath>
     <LangVersion>preview</LangVersion>
+    <RobustILLink>true</RobustILLink>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,4 +32,11 @@
     <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <RobustLinkRoots Include="Reloaded.Universal.DInputPleaseCooperate" />
+    <RobustLinkAssemblies Include="SharpDX" />
+    <RobustLinkAssemblies Include="SharpDX.DirectInput" />
+  </ItemGroup>
+
+  <Import Project="Robust.Trimming.targets" />
 </Project>
