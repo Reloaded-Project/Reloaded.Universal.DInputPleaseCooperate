@@ -34,3 +34,8 @@ This is a very simple mod that works by hooking the `SetCooperativeLevel` functi
 It unsets the `Exclusive` flag that prevents other applications from reading the keyboard as well as the `NoWinKey` flag.
 
 The `NoWinKey` flag is a bit misleading. It actually does a bit more than blocking the Windows key, such as blocking hotkeys registered through Windows API's `RegisterHotkey` function. Many applications, such as the popular screenshot utility ShareX use that API for receiving hotkeys.
+
+
+# Acknowledgements 
+
+Robust IL Linker Script (`Robust.Trimming.targets`) by [Pieter-Jan Briers](https://github.com/PJB3005) is used under the MIT license.
