@@ -2,7 +2,7 @@
   "ModId": "Reloaded.Universal.DInputPleaseCooperate",
   "ModName": "DirectInput Please Cooperate!",
   "ModAuthor": "Sewer56",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.0.1",
   "ModDescription": "Ever annoyed that some games block your hotkeys? Want to take a screenshot but the game says no? Here's a fix!'",
   "ModDll": "Reloaded.Universal.DInputPleaseCooperate.dll",
   "ModIcon": "Preview.png",
