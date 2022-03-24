@@ -2,7 +2,7 @@
   "ModId": "Reloaded.Universal.DInputPleaseCooperate",
   "ModName": "DirectInput Please Cooperate!",
   "ModAuthor": "Sewer56",
-  "ModVersion": "1.0.2",
+  "ModVersion": "1.0.3",
   "ModDescription": "Ever annoyed that some DirectInput games block your hotkeys? Want to take a screenshot but the game says no? Here\u0027s a fix!\u0027",
   "ModDll": "Reloaded.Universal.DInputPleaseCooperate.dll",
   "ModIcon": "Preview.png",
@@ -30,6 +30,12 @@
       "RepositoryName": "Reloaded.Universal.DInputPleaseCooperate",
       "UseReleaseTag": true,
       "AssetFileName": "Mod.zip"
+    },
+    "NuGet": {
+      "AllowUpdateFromAnyRepository": false,
+      "DefaultRepositoryUrls": [
+        "http://packages.sewer56.moe:5000/v3/index.json"
+      ]
     }
   },
   "IsUniversalMod": true,
